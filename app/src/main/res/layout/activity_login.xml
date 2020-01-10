@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/facebookcolor"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="FACEBOOK"
+        android:textSize="50dp"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/white"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter you email address"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:id="@+id/email"
+        />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Enter you password"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_marginBottom="30dp"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        />
+
+    <Button android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="LOGIN"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="if you don't have account?  "
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btnsignuplink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:text="SIGNUP"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+
+</LinearLayout>
